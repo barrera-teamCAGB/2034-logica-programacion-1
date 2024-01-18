@@ -26,4 +26,6 @@
 // ejercicio numero 1
 
 let mensajeDeBienvenida = 'Bienvenido a la aplicación';
-alert(mensajeDeBienvenida);
+alert('mensajeDeBienvenida');  // como esta entre comillas pasa en automatico como una cadena y no como una variable
+alert(mensajeDeBienvenida); // aqui si se mostrara lo que contiene la variable ya que no esta entre comillas
+
