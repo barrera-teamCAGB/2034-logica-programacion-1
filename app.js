@@ -32,7 +32,6 @@
 
 // ejercicio 2
 
-javascript
 alert('Bienvenidos al juego del número secreto');
 let eleccion = prompt('Elige un número entre 1 y 10');
 
