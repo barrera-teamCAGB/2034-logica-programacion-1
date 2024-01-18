@@ -9,14 +9,21 @@
 
 // Creamos una variable por el momento solo usaremos let, con el nombre en camelCase
 // Como buena practica igual que el nombre de la vriable en camelCase la declaracion de variables se hcen al inicio, sabiendo de antemano cuale se van a ocupar
-let numeroSecreto = 6;
-let numeroUsuario = prompt ("Este es un juego de adivina el numero entre el 1 y 10 para iniciar, Indicame un numero: ");
+//let numeroSecreto = 6;
+//let numeroUsuario = prompt ("Este es un juego de adivina el numero entre el 1 y 10 para iniciar, Indicame un numero: ");
 
 // Console.log() Muestra un mensaje en la consola web (o del intérprete JavaScript).
-console.log (numeroUsuario);
+//console.log (numeroUsuario);
 
 // Condicional if - Ejecuta una sentencia si una condición específicada es evaluada como verdadera. Si la condición es evaluada como falsa, otra sentencia puede ser ejecutada. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else
 // lo usaremos para comprar 2 variables
-if (numeroSecreto == numeroUsuario) {
-    alert("Correcto ese es el numero secreto");
-}
+//if (numeroSecreto == numeroUsuario) {
+//    alert("Correcto ese es el numero secreto");
+//}
+
+
+
+// ejercicio numero 1
+
+let mensajeDeBienvenida = 'Bienvenido a la aplicación';
+alert('mensajeDeBienvenida');
