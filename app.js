@@ -26,4 +26,4 @@
 // ejercicio numero 1
 
 let mensajeDeBienvenida = 'Bienvenido a la aplicación';
-alert('mensajeDeBienvenida');
+alert(mensajeDeBienvenida);
