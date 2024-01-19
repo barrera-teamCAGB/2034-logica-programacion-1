@@ -55,11 +55,13 @@ if (contrasenia == contraseniaDelSistema){
 
 // Desafios 
 
-// Muestra una alerta con el mensaje "¡Bienvenida y bievenido a nuestro sitio web!".
+// 1 Muestra una alerta con el mensaje "¡Bienvenida y bievenido a nuestro sitio web!".
 alert("Bienvenida y bievenido a nuestro sitio web!");
 
-// Declara una variable llamada nombre y asígnale el valor "Luna".
+// 2 Declara una variable llamada nombre y asígnale el valor "Luna".
 let nombre = "Luna";
-
 console.log(nombre);
 
+// 3 Crea una variable llamada edad y asígnale el valor 25.
+let edad = 25;
+console.log(edad);
