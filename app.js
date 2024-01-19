@@ -74,3 +74,6 @@ console.log(numeroDeVentas);
 let saldoDisponible = 1000;
 console.log(saldoDisponible);
 
+// 6 Muestra una alerta con el texto "¡Error! Completa todos los campos".
+alert("¡Error! Completa todos los campos");
+
