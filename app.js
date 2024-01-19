@@ -44,10 +44,19 @@ if (eleccion == numeroSecreto) {
 
 // ejercicio 3
 
-let contraseniaDelSistema = "contraseniaPrueba!";
+/* let contraseniaDelSistema = "contraseniaPrueba!";
 
 let contrasenia = prompt("Ingrese la contraseña del sistema:");
 
 if (contrasenia == contraseniaDelSistema){
     alert("Acceso al sistema garantizado");
-}
+} */
+
+
+// Desafios 
+
+// Muestra una alerta con el mensaje "¡Bienvenida y bievenido a nuestro sitio web!".
+alert("Bienvenida y bievenido a nuestro sitio web!");
+
+
+
