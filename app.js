@@ -65,3 +65,8 @@ console.log(nombre);
 // 3 Crea una variable llamada edad y asígnale el valor 25.
 let edad = 25;
 console.log(edad);
+
+// 4 Establece una variable numeroDeVentas y asígnale el valor 50.
+let numeroDeVentas = 50;
+console.log(numeroDeVentas);
+
