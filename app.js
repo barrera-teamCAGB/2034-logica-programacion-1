@@ -88,3 +88,8 @@ console.log(nombreUsuario);
 // 9 Pide al usuario que ingrese su edad usando un prompt y almacénala en la variable edadUsuario.
 let edadUsuario = prompt ("Ingrese su edad");
 console.log(edadUsuario);
+
+// 10 Ahora, si la edad es mayor o igual a 18, muestra una alerta con el mensaje "¡Puedes obtener tu licencia de conducir!".
+if (edadUsuario >= 18) {
+    alert("¡Puedes obtener tu licencia de conducir!");
+}
