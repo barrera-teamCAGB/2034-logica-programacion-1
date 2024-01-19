@@ -81,3 +81,6 @@ alert("¡Error! Completa todos los campos");
 let mensajeDeError = "¡Error! Completa todos los campos";
 alert(mensajeDeError);
 
+// 8 Utiliza un prompt para preguntar el nombre del usuario y almacénalo en la variable nombre .
+let nombre = prompt("Nombre del Usuario");
+console.log(nombre);
