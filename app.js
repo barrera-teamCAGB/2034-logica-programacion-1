@@ -35,7 +35,7 @@ let numeroSecreto = 4;
 
 console.log(intento  == numeroSecreto);
 if (intento  == numeroSecreto) {
-    alert('Acertaste');
+    alert(`Acertaste el numero es ${intento}`);
 } else {
     alert('El número secreto era ' + numeroSecreto);
 }
