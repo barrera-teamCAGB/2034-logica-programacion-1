@@ -27,7 +27,7 @@
 
 
 
-javascript
+//javascript
 alert('Bienvenido al juego del número secreto');
 let intento = prompt('Elige un número entre 1 y 10');
 
