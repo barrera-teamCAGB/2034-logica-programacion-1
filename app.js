@@ -16,12 +16,26 @@
 //     alert('Lo siento, no acertaste el número');
 // }
 
-// ejercio 1 
-let edad = prompt("Ingrese su edad:");
+// // ejercio 1 
+// let edad = prompt("Ingrese su edad:");
 
-if (edad >= 18) {
-  console.log("Eres mayor de edad.");
+// if (edad >= 18) {
+//   console.log("Eres mayor de edad.");
+// } else {
+//   console.log("Eres menor de edad.");
+// }
+
+
+
+javascript
+alert('Bienvenido al juego del número secreto');
+let intento = prompt('Elige un número entre 1 y 10');
+
+let numeroSecreto = 4;
+
+console.log(intento  == numeroSecreto);
+if (intento  == numeroSecreto) {
+    alert('Acertaste');
 } else {
-  console.log("Eres menor de edad.");
+    alert('El número secreto era ' + numeroSecreto);
 }
-
