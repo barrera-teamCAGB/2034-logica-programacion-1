@@ -37,5 +37,8 @@ console.log(intento  == numeroSecreto);
 if (intento  == numeroSecreto) {
     alert(`Acertaste el numero es ${intento}`);
 } else {
-    alert('El número secreto era ' + numeroSecreto, ' y elegiste ' + intento);
+    // prueba con inciso A
+    //alert('El número secreto era ' + numeroSecreto, ' y elegiste ' + intento);
+    // prueba con codigo de inciso B
+    alert('El número secreto era ' + numeroSecreto + intento);
 }
