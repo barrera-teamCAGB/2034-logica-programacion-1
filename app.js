@@ -20,7 +20,7 @@ let cantidadMillas = prompt("Ingrese la cantidad de millas");
 
 // probando las opciones
 // opcion A
-if (cantidadMillas > 5000) {
+/* if (cantidadMillas > 5000) {
     porcentajeDescuento = 10;
 }
 console.log(porcentajeDescuento);
@@ -29,8 +29,13 @@ if (cantidadMillas > 30000) {
     porcentajeDescuento = 20;	
 } else {
     porcentajeDescuento = 0;
-}
+} */
 
-
+// opcion B
+if (cantidadMillas > 30000) {
+    porcentajeDescuento = 20;	
+} else if (cantidadMillas > 5000) {
+    porcentajeDescuento = 10;	
+} 
 
 console.log(porcentajeDescuento);
