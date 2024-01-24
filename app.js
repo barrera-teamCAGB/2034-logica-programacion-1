@@ -42,7 +42,7 @@ if (intento  == numeroSecreto) {
     // prueba con codigo de inciso B
     //alert('El número secreto era ' + numeroSecreto + intento);
     // prueba con inciso C
-    //alert('El número secreto era ' + numeroSecreto + ', pero elegiste ' + intento);
+    alert('El número secreto era ' + numeroSecreto + ', pero elegiste ' + intento);
     //prueba con inciso D
-    alert('El número secreto era numeroSecreto, y elegiste intento');    
+    //alert('El número secreto era numeroSecreto, y elegiste intento');    
 }
