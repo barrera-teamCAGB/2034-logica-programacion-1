@@ -31,7 +31,7 @@ if (cantidadMillas > 30000) {
     porcentajeDescuento = 0;
 } */
 
-// opcion B esta si da lo buscado
+// opcion B
 /* if (cantidadMillas > 30000) {
     porcentajeDescuento = 20;	
 } else if (cantidadMillas > 5000) {
@@ -54,7 +54,7 @@ if (cantidadMillas > 30000) {
     porcentajeDescuento = 0;
 } */
 
-// opcion D
+// opcion D, esta opcion si funciona
 if (cantidadMillas > 30000) {
     porcentajeDescuento = porcentajeDescuento + 20;
 } else {
