@@ -17,9 +17,12 @@ if (diaUsuario == "sabado" || diaUsuario == "domingo") {
 // 2 Verifica si un número ingresado por el usuario es positivo o negativo. Muestra una alerta informativa.
 let numeroUsuario = prompt ("Coloca un numero positivo o negativo: ");
 if (numeroUsuario > 0) {
-    alert ("el numero ingresado es " + numeroUsuario + " y es positivo ")
+    alert ("el numero ingresado es " + numeroUsuario + " y es positivo ");
+} else if (numeroUsuario < 0) {
+    alert ("el numero ingresado es " + numeroUsuario + " y es negativo ");
+
 } else {
-    alert ("el numero ingresado es " + numeroUsuario + " y es negativo ")
+    alert ("el numero ingresado es cero");
 
 }
 
