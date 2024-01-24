@@ -32,10 +32,26 @@ if (cantidadMillas > 30000) {
 } */
 
 // opcion B
-if (cantidadMillas > 30000) {
+/* if (cantidadMillas > 30000) {
     porcentajeDescuento = 20;	
 } else if (cantidadMillas > 5000) {
     porcentajeDescuento = 10;	
-} 
+}  */
+
+// opcion C
+if (cantidadMillas > 5000) {
+    porcentajeDescuento = porcentajeDescuento + 10;
+ } else {
+        porcentajeDescuento = porcentajeDescuento + 20;
+ 
+    }
+
+console.log(porcentajeDescuento);
+
+if (cantidadMillas > 30000) {
+    porcentajeDescuento = porcentajeDescuento + 20;
+} else {
+    porcentajeDescuento = 0;
+}
 
 console.log(porcentajeDescuento);
