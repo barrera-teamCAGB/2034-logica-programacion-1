@@ -23,6 +23,7 @@ let cantidadMillas = prompt("Ingrese la cantidad de millas");
 if (cantidadMillas > 5000) {
     porcentajeDescuento = 10;
 }
+console.log(porcentajeDescuento);
 
 if (cantidadMillas > 30000) {
     porcentajeDescuento = 20;	
