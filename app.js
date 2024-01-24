@@ -9,10 +9,9 @@ console.log (diaUsuario);
 
 if (diaUsuario == "sabado" || diaUsuario == "domingo") {
     alert ("hoy es " + diaUsuario + "!que tengas buen fin de semana");
-    else {
+} else {
         alert ("hoy es " + diaUsuario + "!que tengas buena semana");
     }
-}
 
 
 // 2 Verifica si un número ingresado por el usuario es positivo o negativo. Muestra una alerta informativa.
