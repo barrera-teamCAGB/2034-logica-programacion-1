@@ -31,7 +31,7 @@ if (cantidadMillas > 30000) {
     porcentajeDescuento = 0;
 } */
 
-// opcion B
+// opcion B esta si da lo buscado
 /* if (cantidadMillas > 30000) {
     porcentajeDescuento = 20;	
 } else if (cantidadMillas > 5000) {
@@ -39,7 +39,7 @@ if (cantidadMillas > 30000) {
 }  */
 
 // opcion C
-if (cantidadMillas > 5000) {
+/* if (cantidadMillas > 5000) {
     porcentajeDescuento = porcentajeDescuento + 10;
  } else {
         porcentajeDescuento = porcentajeDescuento + 20;
@@ -52,6 +52,19 @@ if (cantidadMillas > 30000) {
     porcentajeDescuento = porcentajeDescuento + 20;
 } else {
     porcentajeDescuento = 0;
-}
+} */
+
+// opcion D
+if (cantidadMillas > 30000) {
+    porcentajeDescuento = porcentajeDescuento + 20;
+} else {
+    if (cantidadMillas > 5000) {
+            porcentajeDescuento = porcentajeDescuento + 10; 
+    }
+} 
+
+
 
 console.log(porcentajeDescuento);
+
+
