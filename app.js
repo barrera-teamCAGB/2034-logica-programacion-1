@@ -33,3 +33,19 @@ while (contador < 4) {
   console.log('Ejecutando la iteración ' + contador);
   contador = contador + 1;
 }
+
+// Desafios
+// 1 Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. Muestra cada número.
+
+let contador = 1;
+while (contador < 10 ) {
+    console.log (`bucle numero ${contador}`);
+    contador++;
+    console.log(contador);
+}
+
+
+
+
+
+
