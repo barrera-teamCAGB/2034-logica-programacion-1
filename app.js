@@ -38,7 +38,7 @@ while (contador < 4) {
 // 1 Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. Muestra cada número.
 
 let contador = 1;
-while (contador < 10 ) {
+while (contador <= 10 ) {
     console.log (`bucle numero ${contador}`);
     contador++;
     console.log(contador);
@@ -47,7 +47,7 @@ while (contador < 10 ) {
 // 2 Crea un contador que comience en 10 y vaya hasta 0 usando un bucle 'while'. Muestra cada número.
 
 let contador = 10;
-while (contador > 0) {
+while (contador >= 0) {
     console.log("contador es igual a ", contador);
     contador--;
 }
@@ -61,11 +61,23 @@ numUsuario = prompt("Este es un bucle de donde tu me das un numero y este empeza
 console.log(numUsuario);
 
 while (numInicial <= numUsuario) {
+    //alert("contando " + numInicial);
     console.log("contando" + numInicial);
     numInicial++;
 }
 
+// 4 Crea un programa de cuenta regresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
 
+let numUsuario = 0;
+
+numUsuario = prompt("Este es un bucle de donde tu me das un numero y este empezara una cuenta regresiva hasta llegar a tu numero");
+
+console.log(numUsuario);
+
+while (numUsuario >= 0) {
+    console.log("contando" + numUsuario);
+    numUsuario--;
+}
 
 
 
