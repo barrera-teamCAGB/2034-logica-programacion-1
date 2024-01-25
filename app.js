@@ -48,3 +48,25 @@ let cantidadPersonas = prompt("dame numero de persona(s): ");
 let palabraPersona = cantidadPersonas == 1 ? "persona" : "personas";
 console.log(palabraPersona);
 
+
+// funcion Math.random();
+// esta funcion genera un número decimal aleatorio entre 0 (inclusivo) y 1 (exclusivo) de forma pseudoaleatoria, con una precisión de hasta 16 decimales
+
+// implementacion, nos apoyaremos de la funcion parseInt(); para sacar el numero entero o tambien la funcion Math.floor();
+// ejerciocio de numero aleatorio entre los numeros 1 y 3 
+
+// realizando 3 casos veremos cual es el correcto
+// aqui se incluye el cero, 1 y 2 pero no el 3)
+let numAleatorio1a3 = parseInt(Math.random() * 3);
+console.log(numAleatorio1a3);
+
+// aqui incluimos el 1 2 y el 3 y excluimos el 0
+let numAleatorio1a3 = parseInt(Math.random() * 3)+1;
+console.log(numAleatorio1a3);
+
+// aqui incluimos el 1 2 y 3 pero a su vez estaria el 0
+let numAleatorio1a3 = parseInt(Math.random() * 4);
+console.log(numAleatorio1a3);
+
+// la opcion correcta seria la segunda
+
