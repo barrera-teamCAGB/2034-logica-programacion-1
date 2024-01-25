@@ -30,3 +30,21 @@ for (let intentos = 0; intentos < 5; intentos++) {
   } 
 }
 
+
+// operador ternario
+// este es como un if abreviado; su sintaxis es: condicion ? valor si es verdadero : valor si es falso
+
+// ejemplo
+let palabraPersona = "";
+let cantidadPersonas = prompt("dame numero de persona(s): ");
+if (cantidadPersonas == 1){
+    palabraPersona = "persona";
+} else {
+    palabraPersona = "personas";
+}
+console.log(palabraPersona);
+// usando el operador ternarioa cambiar el codigo de arriba
+let cantidadPersonas = prompt("dame numero de persona(s): ");
+let palabraPersona = cantidadPersonas == 1 ? "persona" : "personas";
+console.log(palabraPersona);
+
