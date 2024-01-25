@@ -1,6 +1,22 @@
 // 05.Desafios
 // Proyecto del Aula anterior
 //Variables
+
+// propuesta, que el usuario elija un rango de 2 numeros de los que quiera adivinar y otra propuesta es que cuantos intentos quisiera tener para adivinar
+
+// la propuesta de un rango de 2 numeros sera que por medio de 2 prompt los proporcione y estos a su vez sean numero enteros, por medio de matematicas la siguiente formula es para sacar ese intervalo 
+// aqui no se incluye el numero2
+// * (numero2-numero1) + numero1
+// aqui se incluyen los 2 numeros
+// * (numero2-numero1+1) + numero1
+
+// una variable preguntando cuantos intentos quiere tener, como regla tendras 1
+// esta sustituira ala de intentos maximos y lo tomaremos de un prompt
+//let maximosIntentos = prompt("Cuantos intentos te gustaria tener para adivinar el numero secreto:");
+// como opcion a esta variable le colocaremos el parseFloat() para asegurar que sea un numero
+
+// ahora comentaremos y sustituiremos 
+
 let numeroMaximoPosible = 100;
 let numeroSecreto = Math.floor(Math.random()*numeroMaximoPosible)+1;
 let numeroUsuario = 0;
