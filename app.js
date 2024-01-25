@@ -24,3 +24,12 @@ while (numeroUsuario != numeroSecreto) {
         //alert('Lo siento, no acertaste el número');
     }
 }
+
+
+// ejercio Contador 1 - saber cual es resultado final de este codigo en la consola
+let contador = 1;
+
+while (contador < 4) {
+  console.log('Ejecutando la iteración ' + contador);
+  contador = contador + 1;
+}
