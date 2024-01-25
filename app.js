@@ -70,3 +70,27 @@ console.log(numAleatorio1a3);
 
 // la opcion correcta seria la segunda
 
+
+// otras funciones de ayuda
+// typeof, no sirve para saber que tipo de variable es una variable, puedes ser un string o number
+// parseInt, nos va a retornar la parte entera de un string esto sucede mucho cuando usamos el promt y ahi se coloca un numero en realidad esta recibiendo un string y ya con esa funcion  aseguramos que trabajaremos con numeros
+
+let variableRecibida = prompt ("dame un numero: ");
+// aqui recibiremos en la caja de texto del prompt el numero pero java lo tomara como un string para ver con que estamos trabajando usaremos typeof en la consola
+
+console.log (typeof(variableRecibida));
+
+// aqui otro ejemplo
+let cadena = "texto en esta variable";
+let supuestamenteNumero = "42";
+let numero = 42;
+// imprimimos que tipo de variable tiene cada una
+console.log (typeof(cadena));
+console.log (typeof(supuestamenteNumero));
+console.log (typeof(numero));
+
+// ahora con parseInt, la variable supuestamenteNumero la cambiaremos a entero
+let cambioANumero = parseInt(supuestamenteNumero);
+
+// imprimimos el resultado en la consola
+console.log (typeof(cambioANumero));
