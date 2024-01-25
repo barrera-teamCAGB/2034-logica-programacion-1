@@ -52,6 +52,21 @@ while (contador > 0) {
     contador--;
 }
 
+// 3 Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
+let numInicial = 0;
+let numUsuario = 0;
+
+numUsuario = prompt("Este es un bucle de donde tu me das un numero y este empezara a contar desde cero hasta llegar a ese numero, que no se mayor a 20");
+
+console.log(numUsuario);
+
+while (numInicial <= numUsuario) {
+    console.log("contando" + numInicial);
+    numInicial++;
+}
+
+
+
 
 
 
